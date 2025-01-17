@@ -56,6 +56,17 @@
     </div>
   </header>
 
+  <div class="video-container py-5">
+    <video autoplay loop muted playsinline>
+        <source src="/Start-Up/images/3209211-uhd_3840_2160_25fps.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <div class="content py-5">
+        <p>Welcome to Our Website</p>
+        <p>Bringing innovation to life</p>
+    </div>
+    </div>
+
     <section class="container-fluid text-center justify-content-center" id="sectionOne">
         <div class="py-4">
             <div>
@@ -91,7 +102,7 @@
         </div>
     </section>
 
-    <section class="container" id="sectionTree">
+    <section class="container-fluid" id="sectionTree">
         <div class=" text-center py-5">
 
             <div class="py-2">
@@ -167,11 +178,11 @@
                 </div>
             </div>
 
-            <div class="container-fluid text-center">
-                <p class="hChange py-5 fw-bold">Our Services</p>
+            <div class="container-fluid text-center mt-5">
+                <p class="hChange py-md-5 fw-bold mt-0 mt-md-5">Our Services</p>
 
                 <div class="d-flex justify-content-center">
-                    <div id="carouselExampleAutoplaying" class="carousel slide w-75" data-bs-ride="carousel">
+                    <div id="carouselExampleAutoplaying" class="carousel slide w-50" data-bs-ride="carousel">
                         <div class="carousel-indicators">
                             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -234,25 +245,33 @@
     </section>
 
     <section class="container-fluid" id="sectionFive">
-        <div class="text-center">
-            <p class="fs-3 py-2">Contact One Hope</p>
-            <p class="fs-5">Talk to us</p>
-            <p class="fs-5" style="color: rgb(235, 94, 40);">Let's start your journey</p>
+        <div class="text-center fw-bold py-5">
+            <p class="fs-3 py-2 ">Contact One Hope</p>
+            <p class="fs-4">Talk to us</p>
+            <p class="fs-4" style="color: rgb(235, 94, 40);">Let's start your journey</p>
             <div class="pb-2">
-                <a href="#" class="btn" id="sectionFiveButton"><p class="m-0 pChange">Contact Us</p></a>
+                <a href="#" class="btn mb-4" id="sectionFiveButton"><p class="m-0 pChange">Contact Us</p></a>
             </div>
         </div>
     </section>
 
     <footer class="container-fluid">
         <div class="d-flex justify-content-center">
-            <img src="/Start-Up/images/OneHope_white.png" alt="one hope" class="col-1">
+            <img src="/Start-Up/images/OneHope_white.png" alt="one hope" class="col-3 col-md-1">
         </div>
-        <div class="d-flex justify-content-center gap-5 pb-3 fs-1 myIcons">
+        <div class="d-flex justify-content-center gap-5 pb-3 fs-1 text-white">
             <a class="text-reset icons" href="#"><i class="bi bi-github"></i></a>
             <a class="text-reset icons" href="#"><i class="bi bi-linkedin"></i></a>
-          </div>
+        </div>
+        <div class="text-white text-center pb-4">
+            <p>ALL rights reserved</p>
+            <p>web design by One Hope © 2025</p>
+        </div>
     </footer>
+
+    <button id="backToTop" class="btn position-fixed bottom-0 end-0 m-4" style="display: none; background-color: rgb(255, 111, 0);">
+        <i class="bi bi-arrow-up"></i>
+    </button>
 
 
     <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
