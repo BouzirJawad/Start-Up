@@ -74,9 +74,49 @@ header{
 }
 
 .sectionTreeWords{
-    font-size: clamp(20px, 1.2vw, 100px);
+    font-size: clamp(20px, 3vw, 500px);
     line-height: 1.2; 
     margin: 0;
+}
+
+/* section four */
+
+#sectionFour{
+    background-color: rgb(204, 197, 185);
+}
+
+#sectionFour h5{
+    background-color: black;
+    border-radius: 20px;
+    color: rgb(255, 252, 242);
+    padding: 4px;
+}
+
+#sectionFour img{
+    border-radius: 20px;
+}
+
+/* section five */
+
+#sectionFive{
+    background-color: rgb(255, 252, 242);
+}
+
+#sectionFiveButton{
+    background-color: rgb(37, 36, 34);
+    color: rgb(255, 252, 242);
+}
+
+#sectionFiveButton:hover{
+    background-color: rgb(64, 61, 57);
+    color: rgb(235, 94, 40);
+}
+
+
+/* footer */
+
+footer{
+    background-color: rgb(37, 36, 34);
 }
 
 /* for all */
