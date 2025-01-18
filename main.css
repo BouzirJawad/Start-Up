@@ -1,4 +1,43 @@
 /* main page */
+html{
+    scroll-behavior: smooth;
+}
+
+html, body {
+    overflow-x: hidden;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.video-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.video-container video {
+    position: fixed;
+    z-index: -2;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(60%);
+}
+
+.video-container .content {
+    position: relative;
+    color: rgb(220, 209, 194);
+    text-shadow: 10px 10px 7px rgb(0,0,0);
+    text-align: center;
+    font-weight: bolder;
+    font-size: clamp(25px, 4vw, 100px);
+}
+
 
 /* header */
 header{
@@ -96,6 +135,7 @@ header{
     border-radius: 20px;
     color: rgb(255, 252, 242);
     padding: 4px;
+    font-size: clamp(20px, 2vw, 50px);
 }
 
 #sectionFour img{
@@ -150,28 +190,3 @@ footer p{
     margin: 0;
 }
 
-.video-container {
-    position: relative;
-    width: 100%;
-    overflow: hidden;
-}
-
-.video-container video {
-    position: fixed;
-    z-index: -2;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.video-container .content {
-    position: relative;
-    color: rgb(92, 69, 45);
-    text-shadow: 10px 10px 7px rgb(0,0,0);
-    text-align: center;
-    font-weight: bolder;
-    font-size: clamp(25px, 4vw, 100px);
-}
