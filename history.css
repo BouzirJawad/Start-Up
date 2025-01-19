@@ -1,185 +1,374 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(255, 252, 242);
+  color: rgb(255, 252, 242);
+  overflow-x: hidden;
+}
+
+header{
+  background-color: rgb(204, 197, 185);
+}
+
+#myHeaderButton{
+  background-color: rgb(255, 252, 242);
+  color: rgb(37, 36, 34);
+  font-style: oblique;
+}
+
+#myHeaderButton:hover{
+  background-color: rgb(64, 61, 57);
+  color: rgb(204, 197, 185);
+}
+
+
+
+#about {
+  width: 100%;
+  height: 120vh;
+  background-color:rgb(64, 61, 57); 
+}
+
+
+.text p {
+  font-size: 14px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   
-  body {
-    background: rgb(255, 252, 242);
-    color: rgb(255, 252, 242);
-  }
+
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
   
-  
-  #about {
-    width: 100%;
-    height: 60vh;
-    background-color:rgb(64, 61, 57); 
-  }
-  
-  
-  .text p {
-    font-size: 14px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  }
-  
-  .row {
-    display: flex;
-    justify-content: space-between;
-    
-  } 
-  
-  .col-4 img {
-      
-      border-radius: 40px;
-      width: 90%; 
-      height: 100%;  
-      margin-left: 200%;
-      top: -100%;
-      position: relative;
-      margin-top: -20%;
-      top: -70%;
-     
-  }
-  
-  .col-8 {
-     margin-right: 10%;
-     margin-top: 25%;
-   
-  }
-  .sub-title {
-    font-size: 60px;
-    font-weight: 600;
-    color: rgb(255, 252, 242);
-  
-   
-  }
-  
-  #text {
-    font-size: 15px;
-    font-family:  Arial, sans-serif;
-    color: rgb(255, 252, 242);
-    align-items: end;
-  }
-  
-  
-  /* ~~~~~~~~~~~~~~~~SECOND PART~~~~~~~~~~~~~~~~~~~~~~ */
-  
-  
-  #experience{
-    padding: 50px 0 ; 
-    background-color: rgb(255, 252, 242);
-  }
-  
-  .container h1{
-    font-size:250%;
-    color: #252422;
-    font-weight: bold;
-  }
-  
-  .exp-list{
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-        grid-gap: 40px;
-        margin-top: 50px;
-  }
-  
-  .exp{
-    border-radius: 10px;
+} 
+
+#scrollImage {
+    border-radius: 40px;
+    width: 80%; 
+    height: 110%;  
+    margin-left: 210%;
+    top: -100%;
+    margin-top: -20%;
+    top: -95%;
     position: relative;
-    overflow: hidden;
-  }
+   
+}
+
+.top {
+   margin-right: 10%;
+   margin-top: 25%;
+ 
+}
+.sub-title {
+  font-size: 60px;
+  font-weight: 600;
+  color: rgb(255, 252, 242);
+
+ 
+}
+
+#text {
+  font-size: 15px;
+  font-family:  Arial, sans-serif;
+  color: rgb(255, 252, 242);
+  align-items: center;
+}
+
+
+/* ~~~~~~~~~~~~~~~~SECOND PART~~~~~~~~~~~~~~~~~~~~~~ */
+
+
+#experience{
+  padding: 50px 0 ; 
+  background-color: rgb(255, 252, 242);
+}
+
+.container h1{
+  font-size:250%;
+  color: #252422;
+  font-weight: bold;
+}
+
+.exp-list{
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      grid-gap: 40px;
+      margin-top: 50px;
+}
+
+.exp{
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+}
+
+.exp img {
+  border-radius: 10px;
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+  transition: transform 0.5s;
   
-  .exp img {
-    border-radius: 10px;
-    display: block;
-    max-width: 100%;
-    max-height: 100%;
-    transition: transform 0.5s;
-    
-  }
-  
-  .layer {
-        width: 100%;
-        height: 0;
-        background: linear-gradient(to bottom, rgb(218, 150, 123), rgba(235, 95, 40, 0.416));
-        border-radius: 10px;
-        position: absolute;
-        left: 0;
-        bottom: 0;
-        overflow: hidden;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        padding: 0 40px;
-        text-align: center;
-        font-size: 14px;
-        transition: height 0.5s;
-    }
-    
-  .layer h3 {
-        font-weight: 1000;
-        margin-bottom: 20px;
-        color: rgb(255, 252, 242);
-      
-    }
-  
-  .layer p {
-      font-size: 200%;
-      margin-bottom: 20px;
-      color:rgb(255, 252, 242);
-  }
-    .exp:hover {
-       transform: scale(1.1);
-        
-    }
-    
-    .exp:hover .layer{
-        height: 100%;
-         
-     }
-  /* ~~~~~~~~~~~~~~~~~~~~~~~third part~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
-  
-     .Creation {
+}
+
+.layer {
+      width: 100%;
+      height: 0;
+      background: linear-gradient(to bottom, rgb(218, 150, 123), rgba(235, 95, 40, 0.416));
+      border-radius: 10px;
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      overflow: hidden;
       display: flex;
       align-items: center;
-      gap: 20px;
-      max-width: 1200px;
-      margin: 40px auto;
-      padding: 20px;
-      background: rgb(204, 197, 185);
-      border-radius: 10px;
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    }
-    
-    .Creation-image img {
-      width: 200%;
-      max-width: 400px;
-      border-radius: 10px;
-      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
-    }
-    
-    .Creation-text {
-      width: 100%;
-      max-width: 700px;
-      padding: 20px;
-    }
-    
-    .Creation h2 {
-      font-size: 28px;
-      margin-bottom: 30px;
-      color: rgb(37, 36, 34);
-    }
-    
-    .Creation p {
-      font-size: 16px;
-      line-height: 1.8;
-      color: rgb(37, 36, 34);
-    }
-  
-  #title{
-    color: rgb(37, 36, 34);
-    font-weight: bold;
-    margin: 5%;
-  
+      justify-content: center;
+      flex-direction: column;
+      padding: 0 40px;
+      text-align: center;
+      font-size: 14px;
+      transition: height 0.5s;
   }
+  
+.layer h3 {
+      font-weight: 1000;
+      margin-bottom: 20px;
+      color: rgb(255, 252, 242);
+    
+  }
+
+.layer p {
+    font-size: 200%;
+    margin-bottom: 20px;
+    color:rgb(255, 252, 242);
+}
+  .exp:hover {
+     transform: scale(1.1);
+      
+  }
+  
+  .exp:hover .layer{
+      height: 100%;
+       
+   }
+/* ~~~~~~~~~~~~~~~~~~~~~~~third part~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+   .Creation {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+    background: rgb(204, 197, 185);
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .Creation-image img {
+    width: 200%;
+    max-width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  .Creation-text {
+    width: 100%;
+    max-width: 700px;
+    padding: 20px;
+  }
+  
+  .Creation h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+    color: rgb(37, 36, 34);
+  }
+  
+  .Creation p {
+    font-size: 16px;
+    line-height: 1.8;
+    color: rgb(37, 36, 34);
+  }
+
+#title{
+  color: rgb(37, 36, 34);
+  font-weight: bold;
+  margin: 5%;
+
+}
+
+
+
+/* section five */
+
+#sectionFive{
+  background-color: rgb(255, 252, 242);
+  color:rgb(37, 36, 34) ;
+}
+
+#sectionFiveButton{
+  background-color: rgb(37, 36, 34);
+  color: rgb(255, 252, 242);
+}
+
+#sectionFiveButton:hover{
+  background-color: rgb(64, 61, 57);
+  color: rgb(235, 94, 40);
+}
+
+
+
+/* footer */
+
+footer{
+  background-color: rgb(37, 36, 34);
+}
+
+footer p{
+  font-size: clamp(15px, 1vw, 40px);
+  line-height: 1.2;
+  margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* General responsive adjustments */
+@media screen and (max-width: 768px) {
+  /* First section adjustments */
+  #about {
+    height: auto;
+    padding: 40px 0;
+  }
+
+  .row {
+    flex-direction: column;
+  }
+
+  .top {
+    margin-right: 0;
+    margin-top: 10%;
+    padding: 0 20px;
+    width: 100%;
+  }
+
+  .sub-title {
+    font-size: 36px;
+    text-align: center;
+  }
+
+  #text {
+    text-align: center;
+    padding: 0 10px;
+  }
+
+  #scrollImage {
+    margin-left: 0;
+    margin-top: 20px;
+    width: 90%;
+    height: auto;
+    position: static;
+    display: block;
+    margin: 20px auto;
+  }
+
+  /* Second section adjustments */
+  .exp-list {
+    grid-template-columns: 1fr;
+    padding: 0 20px;
+  }
+
+  .exp img {
+    width: 100%;
+    height: auto;
+  }
+
+  .layer p {
+    font-size: 150%;
+  }
+
+  /* Third section adjustments */
+  .Creation {
+    flex-direction: column;
+    margin: 20px;
+    padding: 15px;
+  }
+
+  .Creation-image img {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .Creation-text {
+    padding: 15px 0;
+  }
+
+  .Creation h2 {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  #title {
+    font-size: 24px;
+    text-align: center;
+    margin: 30px 20px;
+  }
+
+  /* Footer adjustments */
+  footer img {
+    width: 100px;
+  }
+
+  footer .gap-5 {
+    gap: 2rem !important;
+  }
+
+  footer .fs-1 {
+    font-size: 1.5rem !important;
+  }
+}
+
+/* Additional adjustments for extra small screens */
+@media screen and (max-width: 480px) {
+  .sub-title {
+    font-size: 28px;
+  }
+
+  .layer h3 {
+    font-size: 20px;
+  }
+
+  .layer p {
+    font-size: 120%;
+  }
+
+  .Creation h2 {
+    font-size: 20px;
+  }
+
+  .Creation p {
+    font-size: 14px;
+  }
+}
