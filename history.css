@@ -55,9 +55,8 @@ header{
     margin-left: 210%;
     top: -100%;
     margin-top: -20%;
-    top: -95%;
+    top: -85%;
     position: relative;
-   
 }
 
 .top {
@@ -221,39 +220,6 @@ header{
   background-color: rgb(64, 61, 57);
   color: rgb(235, 94, 40);
 }
-
-
-
-/* footer */
-
-footer{
-  background-color: rgb(37, 36, 34);
-}
-
-footer p{
-  font-size: clamp(15px, 1vw, 40px);
-  line-height: 1.2;
-  margin: 0;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* General responsive adjustments */
 @media screen and (max-width: 768px) {
